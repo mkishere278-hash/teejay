@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Open+Sans:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface-bright: #fcf9f3;
+  --color-primary: #082010;
+  --color-primary-container: #1e3524;
+  --color-on-primary: #ffffff;
+  --color-secondary: #7e5700;
+  --color-secondary-container: #fdbe4f;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #714d00;
+  --color-surface-container: #f0eee8;
+  --color-surface-container-high: #ebe8e2;
+  --color-on-surface: #1c1c18;
+  --color-on-surface-variant: #434842;
+  --color-outline: #737972;
+  --color-outline-variant: #c3c8c0;
+
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+
+  --font-label-bold: "Open Sans";
+  --font-body-md: "Open Sans";
+  --font-headline-sm: "Montserrat";
+  --font-display-lg: "Montserrat";
+
+  --spacing-gutter: 24px;
+  --spacing-max-width: 1280px;
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 16px;
+}
+
+@layer base {
+  body {
+    @apply bg-surface-bright text-on-surface font-sans antialiased;
+  }
+}
+
+@layer utilities {
+}

@@ -1,0 +1,6 @@
+{
+  "name": "TeeJay's Junk Removal",
+  "description": "Professional junk removal and property preservation services in Tucson, Arizona. Licensed, insured, and reliability-driven.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
